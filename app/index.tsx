@@ -1,20 +1,14 @@
 import { Link } from "expo-router";
-import { Text, TouchableOpacity, View } from "react-native";
+import { Text, TouchableOpacity } from "react-native";
+import Container from "./components/Container";
 
 export default function Index() {
   return (
-    <View
-      style={{
-        flex: 1,
-        justifyContent: "center",
-        alignItems: "center",
-        padding: 20,
-      }}
-    >
+    <Container>
       <Text style={{ fontSize: 24, fontWeight: "bold", marginBottom: 20 }}>
         Bill Splitting App
       </Text>
-      
+
       <Link href="/new-receipt" asChild>
         <TouchableOpacity 
           style={{
@@ -29,7 +23,8 @@ export default function Index() {
             Create New Receipt
           </Text>
         </TouchableOpacity>
-      </Link>
-    </View>
+      </Link>  
+    </Container>
+    
   );
 }
