@@ -21,13 +21,12 @@ export default function Camera() {
         <Text style={{ textAlign: 'center' }}>We need your permission to show the camera</Text>
         <Button onPress={requestPermission} title="grant permission" />
       </View>
-    );
+    )
   }
 
   const takePicture = async () => {
     if (cameraRef.current) {
       try {
-        console.log('Taking picture...');
         const photo = await cameraRef.current.takePictureAsync({
           quality: 0.8,
           base64: false,
@@ -130,8 +129,8 @@ const styles = StyleSheet.create({
   },
   closeButton: {
     position: 'absolute',
-    top: 60,
-    right: 20,
+    top: 10,
+    right: 28,
     zIndex: 1,
     width: 40,
     height: 40,
@@ -145,8 +144,8 @@ const styles = StyleSheet.create({
   },
   cameraContainer: {
     flex: 1,
-    marginTop: 100,
-    marginBottom: 200,
+    marginTop: 50,
+    marginBottom: 50,
     marginHorizontal: 20,
   },
   camera: {
@@ -162,7 +161,7 @@ const styles = StyleSheet.create({
   },
   frame: {
     width: '90%',
-    height: '80%',
+    height: '90%',
     borderWidth: 2,
     borderColor: 'white',
     borderRadius: 10,
@@ -170,8 +169,8 @@ const styles = StyleSheet.create({
   },
   photoContainer: {
     flex: 1,
-    marginTop: 100,
-    marginBottom: 200,
+    marginTop: 50,
+    marginBottom: 50,
     marginHorizontal: 20,
   },
   photoPreview: {
