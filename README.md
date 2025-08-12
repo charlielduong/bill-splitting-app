@@ -1,50 +1,90 @@
-# Welcome to your Expo app 👋
+# Bill Splitting Application 🍽️  
+**Split restaurant bills with friends in minutes.**
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+This Bill Splitting Application is designed to make dividing a restaurant bill quick, accurate, and painless.  
+No more calculators, receipt confusion, or awkward money talks — just scan, assign, and pay.
 
-## Get started
+---
 
-1. Install dependencies
+## 🚀 Features
 
-   ```bash
-   npm install
-   ```
+- **📷 Instant Receipt Scan (OCR)**  
+  Use your phone’s camera to capture a receipt. The app automatically recognizes items, prices, and tax/tip.
 
-2. Start the app
+- **👥 QR-Based Friend Check-In**  
+  Generate a unique session QR code that friends can scan to join the bill instantly.
 
-   ```bash
-   npx expo start
-   ```
+- **🖱️ Tap-to-Assign Items**  
+  Friends can assign their own dishes directly from their devices. Shared dishes? Split evenly with a simple gesture.
 
-In the output, you'll find options to open the app in a
+- **💰 Smart Total Calculation**  
+  Tax and tip are automatically distributed proportionally based on what each person ordered.
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+- **⚡ One-Tap Payments**  
+  Instantly send or request money via Venmo, PayPal, or Apple/Google Pay.
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+---
 
-## Get a fresh project
+## 📱 How It Works
 
-When you're ready, run:
+1. **Start a New Bill**  
+   Open the app, snap a picture of your receipt, and create a bill session.
 
-```bash
-npm run reset-project
-```
+2. **Invite Friends via QR Code**  
+   The app generates a QR code that your friends scan with their phones to join the bill.
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
+3. **Scan & Recognize**  
+   OCR instantly extracts all items and prices from the receipt.
 
-## Learn more
+4. **Assign Items Individually**  
+   Each friend sees the bill on their device and taps the dishes they ordered.  
+   Shared items can be split evenly between multiple people.
 
-To learn more about developing your project with Expo, look at the following resources:
+5. **Settle Up**  
+   Review totals and send payment requests in one tap.
 
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
+---
 
-## Join the community
+## 🛠️ Tech Stack
 
-Join our community of developers creating universal apps.
+- **Frontend:** React Native / Flutter  
+- **Backend:** Node.js with Express  
+- **OCR Processing:** Google Cloud Vision API / Tesseract.js  
+- **Payments:** PayPal SDK, Venmo API, Apple/Google Pay integrations  
+- **Real-Time Sync:** WebSockets / Firebase  
 
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+---
+
+## 🎯 Goal
+
+Reduce the average bill-splitting time to **under 1 minute** while keeping the process accurate, fair, and stress-free.
+
+---
+
+## 📌 Status
+
+🚧 **In Development**  
+We’re currently working on:
+- Improving OCR accuracy for messy receipts
+- Adding group payment history
+- Offline mode for poor signal areas
+
+---
+
+## 🤝 Contributing
+
+Contributions are welcome!  
+If you have ideas or find bugs:
+1. Fork the repo
+2. Create a feature branch
+3. Submit a pull request
+
+---
+
+## 📄 License
+
+MIT License — feel free to use, modify, and distribute.
+
+---
+
+### 📷 Screenshot Preview (Coming Soon)
