@@ -47,11 +47,13 @@ No more calculators, receipt confusion, or awkward money talks — just scan, as
 
 ## 🛠️ Tech Stack
 
-- **Frontend:** React Native / Flutter  
-- **Backend:** Node.js with Express  
-- **OCR Processing:** Google Cloud Vision API / Tesseract.js  
-- **Payments:** PayPal SDK, Venmo API, Apple/Google Pay integrations  
-- **Real-Time Sync:** WebSockets / Firebase  
+- **Frontend:** React Native (cross-platform iOS & Android)
+- **Backend:** AWS Cloud (API Gateway, Lambda, DynamoDB, S3, Cognito)
+- **OCR Processing:** AWS Textract for receipt parsing
+- **Real-Time Sync:** AWS AppSync (GraphQL) or WebSockets via API Gateway
+- **Payments:** PayPal SDK, Venmo API, Apple/Google Pay integrations
+- **Authentication:** AWS Cognito for secure user sign-in
+- **Storage:** AWS S3 for receipt images
 
 ---
 
