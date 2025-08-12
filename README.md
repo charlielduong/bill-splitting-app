@@ -67,19 +67,9 @@ Reduce the average bill-splitting time to **under 1 minute** while keeping the p
 
 🚧 **In Development**  
 We’re currently working on:
-- Improving OCR accuracy for messy receipts
-- Adding group payment history
-- Offline mode for poor signal areas
-
----
-
-## 🤝 Contributing
-
-Contributions are welcome!  
-If you have ideas or find bugs:
-1. Fork the repo
-2. Create a feature branch
-3. Submit a pull request
+- Adding OCR Receipt functionality
+- Camera interface
+- Initial stages of development
 
 ---
 
